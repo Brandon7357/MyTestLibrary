@@ -1,7 +1,9 @@
-#ifndef __ENGINE_MAIN_H__
-#define __ENGINE_MAIN_H__
-
+#include "../include/myLibHeader.h"
 #include "myMain.h"
+
+
+using namespace std;
+
 
 void cmdRunMainEngineThingy() {
 
@@ -10,5 +12,3 @@ void cmdRunMainEngineThingy() {
     delete myEngine;
 
 };
-
-#endif
