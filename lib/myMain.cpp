@@ -1,3 +1,4 @@
+#include <iostream>
 #include <string>
 
 #include "myMain.h"
@@ -9,5 +10,6 @@ void MyMainClass::changeString( std::string tmpStr ) {
 
     name.clear();
     name = tmpStr;
+    cout<<name<<endl;
 
 };
