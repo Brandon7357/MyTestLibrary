@@ -1,0 +1,6 @@
+project('TestThingy', 'cpp', version : '0.0.1')
+inc = include_directories('include')
+subdir('lib')
+subdir('exe')
+pkg_mod = import('pkgconfig')
+pkg_mod.generate(libraries : myLib, version : '0.0.1', name : 'libMyLib', filebase : 'myLib', description : 'My Library!')
